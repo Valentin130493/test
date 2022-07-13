@@ -1,0 +1,27 @@
+.wrapper{
+    position: fixed;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.50);
+    -webkit-tap-highlight-color: transparent;
+    z-index: 10;
+}
+
+.modal-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: clamp(300px, 50%, 500px);
+    background: #ffffff;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.modal-container img {
+    width: 300px;
+    height: auto;
+}

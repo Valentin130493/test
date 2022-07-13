@@ -1,0 +1,45 @@
+.user-info {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.user-info-p {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.user-info-logout {
+    background-color: blue;
+    color: white;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.user-info-logout:hover {
+    cursor: pointer;
+}
+
+.section {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    grid-auto-rows: auto;
+    gap: 20px;
+    justify-content: center;
+}
+
+.section-filters {
+    width: calc(100% - 32px);
+    margin: 0 auto 15px;
+}
+
+.section-filters p {
+    font-size: 26px;
+    text-transform: uppercase;
+    color: black;
+    min-width: 100px;
+    margin: 0;
+    text-align: center;
+}
+
