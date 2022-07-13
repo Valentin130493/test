@@ -63,9 +63,9 @@ export const productsSlice = createSlice({
     initialState,
     reducers: {
         setFilter(state, action){
-            const mem = state.filters.indexOf(action.payload.product)
+            const indexProduct = state.filters.indexOf(action.payload.product)
             if (state.filters.includes(action.payload.product)) {
-                state.filters.splice(mem, 1)
+                state.filters.splice(indexProduct, 1)
             } else {
                 state.filters.push(action.payload.product)
             }

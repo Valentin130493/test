@@ -50,7 +50,7 @@ export const ProductItem:FC<ProductItemProps> = ({
     }
 
     const showHours = () => {
-        let hours_array: any = [];
+        let hours_array: string[] = [];
         let today = new Date();
 
         switch (today.getDay()) {
